@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"NATS/publisher"
+)
 
 func main() {
-	fmt.Println("test")
+	// subscriber.Subscribe()
+	publisher.Publish()
+	// fmt.Println("test")
 }
